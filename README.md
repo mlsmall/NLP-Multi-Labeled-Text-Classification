@@ -1,4 +1,4 @@
-# NLP-Multi-Labeled-Text-Classification
+# NLP Multi Labeled Text Classification
 ## DBpedia Ontology Classes
 
 
@@ -28,3 +28,13 @@ The data downloaded contains a training set and a test set. The goal of this mod
 At the end we achieved an accuracy of 72% vs a validation set.  The confusion matrix for all 14 classes is as follows:
 
 ![alt text](https://github.com/mlsmall/NLP-Multi-Labeled-Text-Classification/blob/master/cm.png)
+
+
+
+## Tokenization
+
+The first step of processing the texts go is to split the raw sentences into words or tokens. The easiest way to do this would be to split the string on spaces, but we need to be smarter:
+
+- we need to take care of punctuation
+- some words are contractions of two different words, like isn't or don't
+- we may need to clean some parts of our texts, if there's HTML code for instance
