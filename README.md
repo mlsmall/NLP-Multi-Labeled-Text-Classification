@@ -49,5 +49,5 @@ Once the tokens have been extracted from the texts, the tokens are converted int
 
 - The classifier was trained using an LSTM RNN.
 - Dropout regularization was used with a keep_prob value of 50%. 
-- The model was trained with a learning rate of 1e-7/(2.6^4) for the earier layers and 3e-6 for the later layers.
-- Momentum values were used of 0.8 and 0.7 for the earlier and later layers, respectively.
+- The model was trained with a learning rate of 1e-7/(2.6^4) for the earlier layers and 3e-6 for the latter layers.
+- Momentum values were used of 0.8 and 0.7 for the earlier and latter layers, respectively.
